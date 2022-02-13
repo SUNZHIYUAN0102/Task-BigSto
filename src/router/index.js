@@ -4,6 +4,7 @@ import Main from '../views/Main.vue'
 import PersonalDetail from '../views/PersonalDetail.vue'
 import AddPerson from '../views/AddPerson.vue'
 import store from '../store'
+import Slider from '../components/Slider.vue'
 
 
 Vue.use(VueRouter)
@@ -17,6 +18,9 @@ const routes = [{
 }, {
     path: '/add',
     component: AddPerson
+}, {
+    path: '/slider',
+    component: Slider
 }]
 
 const router = new VueRouter({
